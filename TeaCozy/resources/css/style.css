@@ -1,0 +1,154 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9; /* In the example at the plattform is only applied to the main DIV
+  but in the designs specs image it looks as if it was applied to more items except the location-items divs */
+}
+
+header{
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+nav{
+  text-align: right;
+  flex: 1 1 370px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline;
+}
+
+nav span{
+  display: inline-block;
+  padding: 10px;
+}
+
+h1, h2, h3, h4, h5{
+  padding: 10px;
+}
+
+a{
+  color:seashell;
+}
+
+footer{
+  text-align: left;
+  padding-left: 20px;
+  opacity: 0.9;
+}
+
+footer h5{
+  margin: 30px auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.section{
+  padding-top: 70px; /* 69 from header height + 1 border */
+  margin:auto;
+  opacity: 0.9;
+}
+
+.text-content{
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.item{
+  padding: 5px;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+  opacity: 0.9;
+}
+
+.item span{
+  padding: 0px;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.location-item{
+  background-color: black;
+  opacity: 1.0;
+  margin: 0px 20px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.location-item p{
+  margin: 22px auto;
+}
+
+#content{
+  width: 1200px;
+}
+
+#logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+#mission{
+  height: 700px;
+  background-image: url("../../resources/img/img-mission-background.jpg");
+}
+
+#featured{
+  width: 1000px;
+  height: 700px;
+}
+
+#locations{
+  height: 500px;
+  background-image: url("../../resources/img/img-locations-background.jpg");
+}
+
+#locations-container{
+  padding-top: 5px;
+}
+
+#contact{
+  height: 200px;
+}
+
+#contact h5{
+  margin: 30px auto;
+  padding: 0px;
+}
